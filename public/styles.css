@@ -524,3 +524,21 @@ button.small {
   height:22px;
   display:block;
 }
+
+.hero-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hero-logo {
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 640px) {
+  .hero-title {
+    gap: 10px;
+  }
+}
